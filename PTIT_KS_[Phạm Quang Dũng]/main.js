@@ -14,3 +14,23 @@ for (let i = 0; i < services_info.length; i++) {
     services_img[i].setAttribute("src",`${services_info[i].imgUrl}`)
     serviceName[i].innerHTML=`${services_info[i].serviceName}`;
 }
+
+let list_projects= document.querySelector(".listWork");
+let recentProjects=JSON.parse(localStorage.getItem("projects"));
+list_projects.innerHTML="";
+for (let i = 0; i < recentProjects.length; i++) {
+    const element = recentProjects[i];
+    list_projects.innerHTML+=`  
+     <div class="work">
+        <img
+            src="${element.img_url}"
+            alt>
+        <div>
+            <div class="workDetails">
+                <b>${element.name}</b>
+                <p>${element.tag}</p>
+            </div>
+            <button>&#8594;</button>
+        </div>
+    </div>`
+};
