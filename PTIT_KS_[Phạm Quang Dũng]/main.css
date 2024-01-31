@@ -1,0 +1,353 @@
+@font-face {
+    font-family: noto-sans;
+    src: url(Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: noto-sans;
+    color: white;
+}
+
+body {
+    background-color: #0b1d33;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoBox {
+    display: flex;
+    height: 10vh;
+    width: 45vh;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logoBox img {
+    object-fit: cover;
+    height: 10vh;
+    width: 10vh;
+}
+
+.logoBox h2 {
+    font-size: 7vh;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 86vh;
+    height: 10vh;
+}
+.navBar p{
+    font-size: 2.5vh;
+}
+.navBar button {
+    padding: 1.5vh 2vh;
+    background-color: #3c86f7;
+    border-radius: 5vh;
+}
+
+header section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10vh;
+}
+
+.headline {
+    background-color: #16355e;
+    display: inline;
+    padding: 1vh 1vh;
+    font-size: 2.5vh;
+}
+
+header section div h1 {
+    font-size: 8vh;
+}
+header section div p{
+    font-size: 2.5vh;
+}
+.headBlue {
+    color: #3c86f7;
+}
+
+header section>div {
+
+    width: 70vh;
+}
+
+header section button {
+    padding: 2vh 3vh;
+    background-color: #3c86f7;
+    border-radius: 3.5vh;
+}
+
+header section>img {
+    height: 70vh;
+    width: 70vh;
+    object-fit: cover;
+
+}
+
+header section div:last-child {
+    display: flex;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+header section div img {
+
+    width: 20vh;
+    object-fit: cover;
+}
+
+header section div>div {
+    display: flex;
+    gap: 5vh;
+}
+
+header>img {
+    margin-top: 7vh;
+    height: 100%;
+    width: 100%;
+}
+
+/* main */
+main .about_us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+main .about_us>img {
+    height: 70vh;
+    width: 80vh;
+    object-fit: cover;
+}
+
+main .about_us div h1 {
+    font-size: 7vh;
+}
+
+main .about_us>div {
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+    align-items: flex-start;
+}
+
+main .about_us button {
+    padding: 2vh 3vh;
+    background-color: #3c86f7;
+    border-radius: 3.5vh;
+}
+
+.reviewBox {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+
+}
+
+.reviewBox div {
+    padding: 3vh 3vh;
+    background-color: #152334;
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 2vh;
+}
+
+.my_work img {
+    height: 40vh;
+    width: 48vh;
+    object-fit: cover;
+}
+
+.my_work div .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 48vh;
+    width: 54vh;
+    border-radius: 1.5vh;
+    text-align: left;
+
+}
+
+.my_work div div b {
+    color: black;
+}
+
+.my_work div div p {
+    color: #818485;
+}
+
+.my_work button {
+    padding: 1.5vh 2vh;
+    background-color: #3c86f7;
+    border-radius: 3vh;
+    border: 1px solid black;
+}
+.work>div{
+    display: flex;
+    justify-content: space-between;
+    width: 48vh;
+}
+
+.workDetails{
+    display: flex;
+    flex-direction: column;
+}
+.listWork{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+.my_work{
+    margin-top: 5vh;
+    margin-left: 6vh;
+}
+ h1{
+    font-size: 5vh;
+}
+.services img{
+    height: 45vh;
+    width: 35vh;
+}
+.services article> div{
+    position: relative;
+ 
+}
+.imgServicesDetails{
+    margin-left: 3vh;
+    position: absolute;
+    bottom: 5vh;
+}
+.imgServicesDetails img{
+    height: 5vh;
+    width: 5vh;
+    object-fit: cover;
+    display: block;
+    
+}
+.imgServicesDetails{
+    width: 30vh;
+}
+.imgServicesDetails p{
+    font-size: 1.2vh;
+}
+.services article{
+    display: flex;
+    gap: 3vh;
+    
+}
+.services{
+    margin-left: 6vh;
+    margin-top: 3vh;
+}
+.get_in{
+    display: flex;
+    gap: 5vh;
+    margin-left: 6vh;
+    margin-top: 8vh;
+}
+.get_in .leftSection img:first-child{
+    height: 60vh;
+    width: 50vh;
+}
+.get_in .leftSection img:last-child{
+    margin-top: 6vh;
+    width: 20vh;
+    object-fit: cover;
+}
+input{
+    background-color: #1b3553;
+}
+label{
+    font-size: 2.5vh;
+}
+input:placeholder-shown{
+    font-size: 2.1vh;
+}
+button{
+    font-size:2.5vh ;
+}
+textarea{
+    background-color: #1b3553;
+}
+.get_in button{
+    margin-top: 3vh;
+    width: 92vh;
+    height: 6vh;
+    background-color: #3c86f7;
+    border-radius: 3vh;
+}
+.toprightSection{
+    margin-bottom: 10vh;
+}
+form > div{
+    display: flex;
+    gap: 3vh;
+}
+input{
+    margin-bottom: 3vh;
+}
+.name {
+    height: 5vh;
+    width: 45vh;
+}
+.email {
+    height: 5vh;
+    width: 45vh;
+}
+textarea{
+    height: 25vh;
+    width: 92vh;
+}
+.subject{
+    height: 5vh;
+    width: 92vh;
+}
+.get_in p{
+    font-size: 2vh;
+}
+.get_in .leftSection b{
+    font-size: 2.5vh;
+}
+.btn-sender{
+    font-size: 2.5vh;
+}
+p{
+    font-size: 2.5vh;
+}
+.get_in{
+    background-color: #0f2746;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+}
+.services{
+    margin-top: 10vh;
+    width: 92%;
+    justify-content: center;
+    background-color: #0f2847;
+    height: 60vh;
+}

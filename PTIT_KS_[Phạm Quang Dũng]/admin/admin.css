@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+
+}
+.link_info div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.link_info{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    gap: 4vh;
+}
+.link_info> button{
+    background-color:#0d6efd;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    width: 16vh;
+}
+.link_info div input{
+    width: 30vh;
+}
+.del_btn{
+    color: white;
+    background: #dc3545;
+    padding: 1vh;
+    border: none;
+    border-radius: 1vh;
+}
+.updt_btn{
+    color: white;
+    background: #198754;
+    padding: 1vh;
+    border: none;
+    border-radius: 1vh;
+}
+th,tr,td{
+    padding: 3vh;
+}
+tbody tr:nth-child(2n+1) {
+    background-color: #d1cfcf;
+}
+th{
+    background-color: rgb(153, 149, 149);
+}
+table{
+    margin-top: 5vh;
+}
